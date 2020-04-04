@@ -20,7 +20,6 @@ module.exports = {
       myConfig.plugins.push(
         new BundleAnalyzerPlugin()
       )
-      myConfig.plugins.push({title: 'hello'})
     }
     return myConfig
   },
