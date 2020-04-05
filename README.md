@@ -1,8 +1,11 @@
 # book_handling_frontend
+图书借还系统前端  
+[demo](http://xichi.xyz/bookHandling)
 
 ## 技术栈
  
   Vue + axios + vuex + element-ui 
+
 
 ## HOW TO START?
 
@@ -10,10 +13,12 @@
 2. 本地运行：`yarn run serve` or `npm run serve`
 3. 打包构建：`yarn run build` or `npm run build`
 
+
 ## API
 
 + api地址：http://47.106.250.72:8888/api/
 + 后端地址：https://github.com/ChenKS12138/book_handling_backend
+
 
 ## 目录结构
 ```
@@ -48,3 +53,4 @@
             index.vue
             login.vue
 ```
+

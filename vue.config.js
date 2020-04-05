@@ -35,7 +35,7 @@ module.exports = {
     hotOnly: false, // 热更新
     proxy: {
       '^/api': {
-        target: 'http://47.106.250.72:8888',
+        target: process.env.VUE_APP_API_URL,
         ws: false,   //开启WebSocket
         secure: false,  // 如果是https接口，需要配置这个参数
         changeOrigin: true,

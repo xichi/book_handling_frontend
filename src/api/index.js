@@ -1,7 +1,11 @@
 import axios from 'axios';
 
+export const baseURL = process.env.NODE_ENV === "development"
+  ? 'api/'
+  : process.env.VUE_APP_API_URL;
+
 let request = axios.create({
-  baseURL: 'api/',
+  baseURL: `${baseURL}`,
   headers: {
     Authorization: `Bearer ${sessionStorage.getItem('TOKEN')}`
   }
