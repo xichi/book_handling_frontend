@@ -27,7 +27,6 @@ export default {
     async adminLogin(){
       const { data: loginData } = await adminLogin(this.email, this.password);
       if(loginData.bearToken){
-        console.log(this.email);
         this.ADMIN_SIGNIN({token: loginData.bearToken, email: this.email});
       }
     }

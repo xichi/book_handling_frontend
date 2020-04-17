@@ -8,7 +8,7 @@
 <script>
 import myHeader from "_c/header"
 export default {
-  name: 'app',
+  name: "app",
   components: {
     myHeader
   }
